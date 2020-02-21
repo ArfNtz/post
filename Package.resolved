@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": "master",
+          "revision": "bfde40cac8eca25ce021552513b20ee23fc6e306",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-nio-ssl",
+        "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
+        "state": {
+          "branch": "master",
+          "revision": "e61c21788325e952ca2d0d71f2cada86ac25491a",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

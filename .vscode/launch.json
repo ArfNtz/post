@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb-mi",
+            "request": "launch",
+            "name": "lldb filepost",
+            "target": "${workspaceFolder}/.build/debug/filepost",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText",
+            "arguments": "myFile.txt",
+            "preLaunchTask": "swift-build"
+        },
+        {
+            "type": "lldb-mi",
+            "request": "launch",
+            "name": "lldb post test",
+            "target": "${workspaceFolder}/.build/debug/postPackageTests.xctest",
+            "arguments": "",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "swift-build-tests",
+        }
+    ]
+}
